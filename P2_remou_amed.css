@@ -50,17 +50,15 @@ h1, h2, h3{
 p{
     margin:5px;
 }
+
+
                                             /*  le cord de la page  */
-main .partie{
-    display: flex;
-    
-    justify-content: center;
-}
 
- /* partie droite */
 
-.droite:nth-child(1){                      
-    order: 1;
+
+                                            /* partie droite */
+
+.droite{                      
     margin-left: 60px;
     flex: 5;
 }
@@ -69,19 +67,16 @@ main .droite h2{
     padding-top: 10px;
 }
 .aligne{
-    display: flex;
     border-bottom: 3px #64B5F6 solid;
     margin-top: 19px;
     padding-bottom: 5px;
     margin-right: 19px;
 }
 .aligne3{
-    display: flex;
     justify-content: space-between;
     margin-top: 19px;
 }
 .point{
-    display: flex;
     width: 40%;
     font-weight: bold;
 }
@@ -92,24 +87,22 @@ main .droite h2{
     padding-left: 13px;
 }
 .bloc{
-    display: flex;
     flex-direction: column;
     justify-content: flex-start;
     width: 90%;
     margin: 0px 10px 0px 65px;
 }
-.bloc p{
+p{
   text-align: justify;
 }
 #conteneur{
-    display: flex;
     justify-content: space-around;
     height: 170px;
 }
 h4{
     margin: 9px;
 }
- /* partie gauche */
+                                                /* partie gauche */
 
 .gauche{                                   
     background-color: #64B5F6;
@@ -118,7 +111,6 @@ h4{
 .gauche h2{
     background-color: black;
     text-align: center;
-    color: #64B5F6;
     height: 35px;
     margin-top:30px;
     padding-top: 9px;  
@@ -142,21 +134,18 @@ h4{
 }
 
 #center{
-    display: flex;
     justify-content: space-around;
-    align-items: center;
     height: 170px;
     margin: auto;
 }
 .cercle{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 50px;
     height: 50px;
     border-radius: 50%;
     border: 2px black solid;
 }
+
+
 
 @media screen and (max-width: 634px)
 {

@@ -25,7 +25,7 @@ header .gauche{
     height: 219px;
 }
 
-#image{
+#image{                                         /* le traitement de l'image */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,10 +38,10 @@ header .gauche{
 img{
     width: 100%;
 }
-.color{
+.color{                                                
     color: #64B5F6;
 }
-em{
+em{                                                  /* le traitement de dével */
     font-style: normal;
     border-bottom: 3px #64B5F6 solid;
 }
@@ -66,29 +66,29 @@ main{
     margin-left: 60px;
     flex: 5;
 }
-main .droite h2{
+main .droite h2{                             /* les grand titre de la partie droite */
     margin-left: 35px;
     padding-top: 10px;
 }
-.aligne{
+.aligne{                                        /* le positionnement du picto et le h2 */
     display: flex;
     border-bottom: 3px #64B5F6 solid;
 }
-.aligne3{
+.aligne3{                                           /* le bloc dates et le texte */
     display: flex;
     justify-content: space-between;
     margin-top: 19px;
 }
-.point{
+.point{                                             /* positionner le picto est la dates */
     display: flex;
     width: 40%;
     font-weight: bold;
 }
-.placer{
+.placer{                                            
     padding-top: 9px;
     font-size: 1.2em;
 }
-.dimention{
+.dimention{                                         /* les taille des picto */
     font-size: 0.6em;
 }
 .bien{
@@ -184,7 +184,7 @@ h4{
 
 @media screen and (max-width: 1024px) {
      .position:nth-of-type(2){
-        height: 490px;`
+        height: 490px;
         padding-top: 325px;
     }
 }
@@ -301,12 +301,6 @@ h4{
         padding-left: 3px;
     }
 }
-
-
-
-
-
-
 
 
 
